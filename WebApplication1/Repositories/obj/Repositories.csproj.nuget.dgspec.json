@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2019\\Desktop\\TAIIB\\WebApplication1\\Repositories\\Repositories.csproj": {}
+    "C:\\Users\\micwa\\OneDrive\\Pulpit\\TALiB\\TAIIB\\WebApplication1\\Repositories\\Repositories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2019\\Desktop\\TAIIB\\WebApplication1\\Repositories\\Repositories.csproj": {
+    "C:\\Users\\micwa\\OneDrive\\Pulpit\\TALiB\\TAIIB\\WebApplication1\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2019\\Desktop\\TAIIB\\WebApplication1\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\micwa\\OneDrive\\Pulpit\\TALiB\\TAIIB\\WebApplication1\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Users\\2019\\Desktop\\TAIIB\\WebApplication1\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\2019\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2019\\Desktop\\TAIIB\\WebApplication1\\Repositories\\obj\\",
+        "projectPath": "C:\\Users\\micwa\\OneDrive\\Pulpit\\TALiB\\TAIIB\\WebApplication1\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\micwa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\micwa\\OneDrive\\Pulpit\\TALiB\\TAIIB\\WebApplication1\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\2019\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\micwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
