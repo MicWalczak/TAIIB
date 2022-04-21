@@ -3,3 +3,4 @@ C:\Users\micwa\OneDrive\Pulpit\TALiB\TAIIB\WebApplication1\Repositories\obj\Debu
 C:\Users\micwa\OneDrive\Pulpit\TALiB\TAIIB\WebApplication1\Repositories\obj\Debug\net5.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\micwa\OneDrive\Pulpit\TALiB\TAIIB\WebApplication1\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfoInputs.cache
 C:\Users\micwa\OneDrive\Pulpit\TALiB\TAIIB\WebApplication1\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfo.cs
+C:\Users\micwa\OneDrive\Pulpit\TALiB\TAIIB\WebApplication1\Repositories\obj\Debug\net5.0\Repositories.csproj.CoreCompileInputs.cache
