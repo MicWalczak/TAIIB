@@ -402,6 +402,23 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "WebApplication1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.15",
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.15"
+        },
+        "compile": {
+          "bin/placeholder/WebApplication1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApplication1.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -1100,33 +1117,35 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "WebApplication1/1.0.0": {
+      "type": "project",
+      "path": "../WebApplication1/WebApplication1.csproj",
+      "msbuildProject": "../WebApplication1/WebApplication1.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.EntityFrameworkCore >= 5.0.15",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.15",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.15"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.15",
+      "WebApplication1 >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\micwa\\.nuget\\packages\\": {},
-    "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\2019\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micwa\\OneDrive\\Pulpit\\TALiB\\TAIIB\\WebApplication1\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "C:\\Users\\2019\\Desktop\\TAIIB\\WebApplication1\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "C:\\Users\\micwa\\OneDrive\\Pulpit\\TALiB\\TAIIB\\WebApplication1\\Repositories\\Repositories.csproj",
-      "packagesPath": "C:\\Users\\micwa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micwa\\OneDrive\\Pulpit\\TALiB\\TAIIB\\WebApplication1\\Repositories\\obj\\",
+      "projectPath": "C:\\Users\\2019\\Desktop\\TAIIB\\WebApplication1\\Repositories\\Repositories.csproj",
+      "packagesPath": "C:\\Users\\2019\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\2019\\Desktop\\TAIIB\\WebApplication1\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\micwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\2019\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1139,7 +1158,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\2019\\Desktop\\TAIIB\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+              "projectPath": "C:\\Users\\2019\\Desktop\\TAIIB\\WebApplication1\\WebApplication1\\WebApplication1.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1182,7 +1205,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }
