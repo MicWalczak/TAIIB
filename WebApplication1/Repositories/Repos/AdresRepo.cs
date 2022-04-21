@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebApplication1;
+using WebApplication1.Models;
 
 namespace Repositories.Repos
 {
@@ -16,9 +18,8 @@ namespace Repositories.Repos
         }
         public void addAdres(Adres adres)
         {
-            wypozyczalniaDb.Adres.Add(adres);
+            wypozyczalniaDb.Adres.Add((Adres)adres);
         }
-
         public bool DeleteAdres(int id)
         {
             bool wynik = false;
@@ -30,7 +31,6 @@ namespace Repositories.Repos
             }
             return wynik;
         }
-
         public IEnumerable<Adres> GetAdres()
         {
             return wypozyczalniaDb.Adres;
@@ -39,6 +39,24 @@ namespace Repositories.Repos
         public Adres GetAdres(int id)
         {
             return wypozyczalniaDb.Adres.Where(z => z.IdAdres == id).FirstOrDefault();
+        }
+        public void addAdres(IEnumerable<Adres> adres)
+        {
+
+        }
+        public bool AddAdresToKlient(int idKlient, int idAdres)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Adres> GetAdres(string kraj)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Adres> GetKlientAdres(int idKlient)
+        {
+            throw new NotImplementedException();
         }
     }
 }

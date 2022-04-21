@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebApplication1;
+using WebApplication1.Models;
 
 namespace Repositories.Repos
 {
@@ -40,5 +42,6 @@ namespace Repositories.Repos
         {
             return wypozyczalniaDb.Pracownicy.Where(z => z.IdPracownika == id).FirstOrDefault();
         }
+
     }
 }

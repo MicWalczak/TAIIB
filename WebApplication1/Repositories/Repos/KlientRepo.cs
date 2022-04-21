@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebApplication1;
+using WebApplication1.Models;
 
 namespace Repositories.Repos
 {
@@ -19,6 +21,7 @@ namespace Repositories.Repos
         {
             wypozyczalniaDb.Klienci.Add(klienci);
         }
+
 
         public bool DeleteKlient(int id)
         {
@@ -41,5 +44,6 @@ namespace Repositories.Repos
         {
             return wypozyczalniaDb.Klienci.Where(z => z.IdKlineta == id).FirstOrDefault();
         }
+
     }
 }
