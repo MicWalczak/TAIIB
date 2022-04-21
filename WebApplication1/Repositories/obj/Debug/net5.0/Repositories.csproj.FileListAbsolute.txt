@@ -1,0 +1,5 @@
+C:\Users\micwa\OneDrive\Pulpit\TALiB\TAIIB\WebApplication1\Repositories\bin\Debug\net5.0\WebApplication1.dll
+C:\Users\micwa\OneDrive\Pulpit\TALiB\TAIIB\WebApplication1\Repositories\obj\Debug\net5.0\Repositories.csprojAssemblyReference.cache
+C:\Users\micwa\OneDrive\Pulpit\TALiB\TAIIB\WebApplication1\Repositories\obj\Debug\net5.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micwa\OneDrive\Pulpit\TALiB\TAIIB\WebApplication1\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfoInputs.cache
+C:\Users\micwa\OneDrive\Pulpit\TALiB\TAIIB\WebApplication1\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfo.cs
