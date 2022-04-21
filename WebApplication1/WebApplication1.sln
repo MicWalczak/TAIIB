@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebAppli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories", "Repositories\Repositories.csproj", "{86368D12-203C-4F21-B062-2D7DE296E78B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testy", "Testy\Testy.csproj", "{98955DF0-4ACE-4FEB-8849-4227D1FD3D0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testy", "Testy\Testy.csproj", "{98955DF0-4ACE-4FEB-8849-4227D1FD3D0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
